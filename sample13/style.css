@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+:root{
+    font-family: 'Roboto', sans-serif;
+    --primary-color: #6C63FF;
+    --secondary-color: #CCCAF5;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+h2{
+    color: var(--secondary-color);
+}
+
+#h1Btn{
+    color: var(--primary-color);
+}
+
+#h2Btn{
+    color: var(--secondary-color);
+}
+
+.portfolio-button{
+    background-color: #FBBF24;
+    color: #92400E;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
