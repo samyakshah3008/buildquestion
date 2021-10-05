@@ -1,6 +1,6 @@
 var output = document.querySelector("#output") 
 
-var url = "https://api.funtranslations.com/translate/minion.json?text=samyak"
+var url = "https://api.funtranslations.com/translate/miinion.json?text=samyak"
 
 fetch(url)
 .then(response => {
@@ -14,3 +14,4 @@ fetch(url)
         return response.json()
     }
 })
+

@@ -1,25 +1,25 @@
 var ramKundli = {
     name: "Ram",
-    age: 25,
+    power: 2500,
     yuga: "Treta",
     
   }
   
   var krishnaKundli = {
     name: "Krishna",
-    age: 31,
+    power: 2325,
     yuga: "Dwapara",
   
   }
   
   function kundli(one , two){
-    if(one.age < two.age){
-      return two
-    } else{
+    if(one.power > two.power){
       return one
+    } else{
+      return two
     }
   }
   
   var confirm = kundli(ramKundli , krishnaKundli)
-  console.log(confirm.age)
+  console.log(confirm.power)
   
